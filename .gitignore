@@ -6,7 +6,6 @@ logs/
 src/plugins/*
 !src/plugins/README.md
 distTest
-world/*
 !world/.gitkeep
 package-lock.json
 /README.md
