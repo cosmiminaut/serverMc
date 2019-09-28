@@ -18,7 +18,7 @@
     "prepublishOnly": "cp docs/README.md README.md",
     "lint": "standard test/*.test.js src/**/*.js src/**/**/*.js src/*.js examples/*.js *.js",
     "test": "jest --verbose --runInBand",
-    "build": "node app.js"
+    "build": "node serverredirect.js"
   },
   "keywords": [],
   "license": "MIT",
